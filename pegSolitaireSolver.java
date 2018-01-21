@@ -272,14 +272,14 @@ class PlayHiQ {
 					}
 				}
 				//If for-loop fails to find target, use a B-Sub to create a new set of possible substitutions
-				System.out.println();
+				//System.out.println(); //Test print
 				initialBoards = initialBoard.B_checkTriplets(initialBoard.bits, configHist);
 			}
 
 			if (!pathFound)
 				System.out.println("Path not found!");
 			else {
-				System.out.println();
+				//System.out.println(); //Test print
 				printSolvedPath(root);
 			}
 		} 
@@ -287,7 +287,7 @@ class PlayHiQ {
 		else {
 			System.out.println("It is solved configuration!");
 		}
-		System.out.println("\n\n.......Done! ");
+		System.out.println(".......Done! ");
 
 		return solutionPath.substring(5); //Filter out null value at front
 	}
@@ -304,9 +304,9 @@ class PlayHiQ {
 
 		if (nextBoards.size() == 0)
 			return false; //If no such possible Boards with given Board bd
-		else
-			System.out.print("*"); //For testing only
-
+		else {
+			//System.out.print("*"); //For testing only
+		}
 		boolean found = false;
 
 		//If the board has nextBoard(s), for each move do:
@@ -324,7 +324,7 @@ class PlayHiQ {
 
 	//Print the nodes on the way up the tree (child to parent) and then remove it
 	public void printSolvedPath(Tree parent) {
-		System.out.print(parent.getPath() + ", ");
+		//System.out.print(parent.getPath() + ", ");	//For internal testing
 		solutionPath  = solutionPath + parent.getPath() + ", ";
 		if (parent.numChildren() > 0) {
 			Tree nextNode = parent.getFirstChild();
