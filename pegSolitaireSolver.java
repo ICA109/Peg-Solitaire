@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
+//33-peg Peg Solitaire solver done as challenge problem for COMP250. Path finding algorithm pairs BFS type traversal with
+//a modified search heuristic to avoid dead-ends. Program is able to succesfully all possible configurations up to complete board.
 
 public class pegSolitaireSolver {
 
@@ -30,29 +31,32 @@ public class pegSolitaireSolver {
 				//For my custom test cases
 				} else if (n == 4) {
 					//Some of my test configs
-					//config = 4096;
-					//weight = 1;
+					/*
+					config = 4096;
+					weight = 1;
 					
-					//config = 131074; //2W10,5B17,16B18, (for no move after beginning!)
-					//weight = 2;
+					config = 131074; //2W10,5B17,16B18, (for no move after beginning!)
+					weight = 2;
 
-					//config = 1276232578;
-					//weight = 11;
+					config = 1276232578;
+					weight = 11;
 
-					//config = -407011840;
-					//weight = 7;
+					config = -407011840;
+					weight = 7;
 
-					//config = -478283824;  
-					//weight = 9;
+					config = -478283824;  
+					weight = 9;
 
-					//config = 1619134512;  
-					//weight = 7;
+					config = 1619134512;  
+					weight = 7;
 
-					//config = 418604;	
-					//weight = 9;
-					
+					config = 418604;	
+					weight = 9;
+					*/
+
 					config = -411153748;
 					weight = 13;
+					
 					
 				} else {
 					config = -2147450879;
