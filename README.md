@@ -3,15 +3,14 @@ A peg solitaire puzzle solver using A* search paradigms. The peg solitaire puzzl
 
 The peg solitaire puzzle is the same as the HiRiQ puzzle. The higherIQ pdf explains the valid moves to play the game and the 3-colouring of the puzzle.
 
-The 33-Peg Game Board
-
+**The 33-Peg Game Board**
 ![](./Sample/Board.png)
 
-Starting (left) vs. Final (right) Board Configuration
+**Starting (left) vs. Final (right) Board Configuration**
 ![](./Sample/SampleSolve.png)
 
-Examples of valid one-move subsitutions
+**Examples of valid one-move subsitutions**
 ![](./Sample/ValidSubs.png)
 
-Sample solve session in terminal
+**Sample solve session in terminal**
 ![](./Sample/Terminal.png)
