@@ -8,7 +8,7 @@ import java.util.List;
 //COMP 250: Assignment 4
 //**Actual Code (Minus some test cases in the original main()) begins at ~line 210
 
-public class pegSolitaireSolver {
+public class tester {
 
 	public static void main(String[] args) {
 
