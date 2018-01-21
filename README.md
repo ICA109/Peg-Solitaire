@@ -7,6 +7,8 @@ The peg solitaire puzzle is the same as the HiRiQ puzzle. The higherIQ pdf expla
 Starting (left) vs. Final (right) Board Configuration
 ![](./Sample/SampleSolve.png)
 
+Examples of valid one-move subsitutions
+![](./Sample/ValidSubs.png)
 
 Sample solve session in terminal
 ![](./Sample/Terminal.png)
