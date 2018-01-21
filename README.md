@@ -4,4 +4,4 @@ A peg solitaire puzzle solver using A* search paradigms. The peg solitaire puzzl
 The peg solitaire puzzle is the same as the HiRiQ puzzle. The higherIQ pdf explains the valid moves to play the game and the 3-colouring of the puzzle.
 
 Starting (left) vs. Final (right) Board Configuration
-![](\Sample\SampleSolve.png)
+![](/Sample/SampleSolve.png)
