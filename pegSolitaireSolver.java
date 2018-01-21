@@ -3,10 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 
-//Name: Tony Yin
-//McGill ID: 260663818
-//COMP 250: Assignment 4
-//**Actual Code (Minus some test cases in the original main()) begins at ~line 210
 
 public class pegSolitaireSolver {
 
